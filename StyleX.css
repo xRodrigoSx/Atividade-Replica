@@ -1,0 +1,123 @@
+header {
+    background-color: black;
+    margin-left: -10px;
+}
+body {
+    background-color: #171717;
+    color: white;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#menu img {
+    justify-content:top;
+}
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;   
+    margin-bottom: 12px; 
+}
+
+#menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+strong {
+    font-size: 28px;
+}
+#menu button {
+    font-weight:lighter; 
+    font-size: 24px;
+    background-color: black;
+    border-color: black;
+    margin-left: 36px;
+}
+a {
+    margin: 16px;
+    font-weight:lighter; 
+    font-size: 24px;
+}
+#menu2 button {
+    background-color: rgb(0, 0, 0);
+    color: chartreuse;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: chartreuse;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.inicio button {
+    background-color: chartreuse;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400px;
+}
+.inicio {
+    margin: 70px;
+    font-size: 41px;
+    text-align: center;
+}
+
+.jogos h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.jogos {
+    text-align: center;
+}
+
+.nomesjogos {
+    margin-top: -150px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 30px;
+    font-weight: bold;
+}
+.painel {
+    margin-top: 100px;
+}
+footer {
+    padding: 20px;
+    margin-top: -20px;
+    margin-right: px;
+    background-color: #f2f2f2;
+    color: black;
+}
+h2 {
+    font-size: 24px;
+}
+.contato {
+    margin-left: -27px;
+    margin-right: -20px;
+    display: flex;
+    align-items:baseline;
+    background-color: white;
+    font-size: 12px;
+}
+.contato2 {
+    display: flex;
+}
+.contato2 p {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.contato3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+@media (max-width: 450px) {
+    .swiper {
+        height: 270px;
+    }
+}
